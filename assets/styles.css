@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: floralwhite;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    font-family: 'Noto Sans', sans-serif;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #001d47;
+    font-size: 2em;
+    align-items: center;
+}
+header p {
+    font-size: 1.3em;
+    padding-left: 0%;
+}
+nav ul {
+    list-style: none;
+}
+nav a {
+    padding: 0em 1em;
+    text-decoration: none;
+    color: floralwhite;
+}
+body {
+    background-color: #010a1b;
+    display: flex;
+    flex-direction: column;
+    height: 2000px;
+}
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-size: 3em;
+    padding: 1% 0 1% 0;
+}
+body > p {
+    font-size: 1.3em;
+    text-align: center;
+    width: 50%;
+    align-self: center;
+}
