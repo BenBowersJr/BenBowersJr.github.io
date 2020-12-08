@@ -103,7 +103,7 @@ footer img {
 
   border: solid #0d7377 2px;
   padding: 2rem;
-  max-width: 33%;
+  max-width: 45%;
 }
 .project-container img {
   width: 100%;
@@ -112,6 +112,7 @@ footer img {
 .all-projects {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
 }
 .me-image {
